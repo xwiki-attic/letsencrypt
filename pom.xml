@@ -32,7 +32,7 @@
 
   <artifactId>letsencrypt</artifactId>
   <name>Let's Encrypt support</name>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.0.1</version>
   <description>Automatically register Let's Encrypt certificate in XWiki</description>
   <dependencies>
     <dependency>
@@ -64,7 +64,7 @@
     <connection>scm:git:git://github.com/xwiki-contrib/letsencrypt.git</connection>
     <developerConnection>scm:git:git@github.com:xwiki-contrib/letsencrypt.git</developerConnection>
     <url>https://github.com/xwiki-contrib/letsencrypt</url>
-    <tag>HEAD</tag>
+    <tag>letsencrypt-1.0.1</tag>
   </scm>
 
   <issueManagement>
