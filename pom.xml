@@ -66,4 +66,9 @@
     <url>https://github.com/xwiki-contrib/letsencrypt</url>
     <tag>HEAD</tag>
   </scm>
+
+  <issueManagement>
+   <system>jira</system>
+   <url>http://jira.xwiki.org/jira/browse/LETSENCRYPT</url>
+ </issueManagement>
 </project>
