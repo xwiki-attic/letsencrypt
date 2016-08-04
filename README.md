@@ -10,4 +10,4 @@ Automatically register Let's Encrypt certificate in XWiki.
 * License: LGPL 2.1
 * Translations: N/A
 * Sonar Dashboard: N/A
-* Continuous Integration Status: [![Build Status](http://ci.xwiki.org/buildStatus/icon?job=Contrib%20-%20Let's%20Encrypt)](http://ci.xwiki.org/job/Contrib%20-%20Let's%20Encrypt/)
+* Continuous Integration Status: [![Build Status](http://ci.xwiki.org/buildStatus/icon?job=Contrib%20-%20Lets%20Encrypt)](http://ci.xwiki.org/job/Contrib%20-%20Lets%20Encrypt/)
