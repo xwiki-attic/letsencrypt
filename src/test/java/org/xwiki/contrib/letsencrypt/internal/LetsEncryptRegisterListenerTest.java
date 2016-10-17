@@ -50,6 +50,6 @@ public class LetsEncryptRegisterListenerTest
     @Test
     public void test() throws MalformedURLException, IOException
     {
-        new URL("https://letsencrypt.org").openConnection().connect();
+        new URL("https://helloworld.letsencrypt.org").openConnection().connect();
     }
 }
