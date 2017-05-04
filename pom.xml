@@ -32,7 +32,7 @@
 
   <artifactId>letsencrypt</artifactId>
   <name>Let's Encrypt support</name>
-  <version>1.1.1-SNAPSHOT</version>
+  <version>1.0.6-SNAPSHOT</version>
   <description>Automatically register Let's Encrypt certificate in XWiki</description>
   <properties>
     <xwiki.jacoco.instructionRatio>0.40</xwiki.jacoco.instructionRatio>
