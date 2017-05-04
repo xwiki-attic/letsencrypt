@@ -27,7 +27,7 @@
   <parent>
     <groupId>org.xwiki.contrib</groupId>
     <artifactId>parent-commons</artifactId>
-    <version>6.4-3</version>
+    <version>6.4-8</version>
   </parent>
 
   <artifactId>letsencrypt</artifactId>
@@ -36,6 +36,9 @@
   <description>Automatically register Let's Encrypt certificate in XWiki</description>
   <properties>
     <xwiki.jacoco.instructionRatio>0.40</xwiki.jacoco.instructionRatio>
+
+    <xwiki.release.jira.skip>false</xwiki.release.jira.skip>
+    <xwiki.issueManagement.jira.id>LENCRYPT</xwiki.issueManagement.jira.id>
   </properties>
   <dependencies>
     <dependency>
@@ -75,9 +78,4 @@
     <url>https://github.com/xwiki-contrib/letsencrypt</url>
     <tag>HEAD</tag>
   </scm>
-
-  <issueManagement>
-   <system>jira</system>
-   <url>http://jira.xwiki.org/jira/browse/LENCRYPT</url>
- </issueManagement>
 </project>
