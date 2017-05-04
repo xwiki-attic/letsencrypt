@@ -97,7 +97,8 @@ public class LetsEncryptRegisterListener extends AbstractEventListener implement
                 SSLContext.setDefault(sslContext);
             }
         } catch (Exception e) {
-            throw new InitializationException("Failed to regsiter Let's Encryp certificate", e);
+            // No need to crash the whole XWiki initialization for it
+            this.logger.warn("Failed to regsiter Let's Encryp certificate", e);
         }
     }
 
